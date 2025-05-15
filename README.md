@@ -34,7 +34,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 1.  **Clona el repositorio (si lo tienes en un repositorio remoto):**
 
     ```bash
-    git clone <URL_DEL_REPOSITORIO>
+    git clone <https://github.com/Mar-Vin1926/Maquetacion-1-Marvin.git>
     cd <NOMBRE_DEL_PROYECTO>
     ```
 
@@ -131,4 +131,4 @@ Mejoras en el diseño y la responsividad del menú lateral y el contenido.
 Implementación de validaciones de formularios.
 Conexión con una API para la gestión de datos.
 Autor
-[Tu Nombre o Nombre del Proyecto]
+[Marvin Garcia]
