@@ -1,0 +1,76 @@
+.registro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.registro-form {
+  background-color: white; /* Recuadro blanco */
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex;
+  flex-direction: column;   
+  align-items: stretch;
+  width: 550px; /* Ancho del recuadro */
+  border: 3px solid black; /* Contorno negro */
+}
+
+.registro-heading {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333; /* Texto negro */
+}
+
+.registro-input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 3px solid black; /* Borde negro */
+  border-radius: 30px;
+  font-size: 16px;
+  color: #555; /* Texto gris */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.registro-input::placeholder {
+  color: black;
+}
+
+.registro-button {
+  padding: 10px 20px; /* Ajusté el padding */
+  background-color: white; /* Botón verde */
+  color: black;
+  border: 3px solid black;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120px; /* Ancho máximo del botón */
+}
+
+.registro-button:hover {
+  background-color: white; /* Oscurecer al pasar el ratón */
+}
+
+.registro-login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777; /* Texto gris */
+  text-align: center;
+}
+
+.registro-login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.registro-login-link a:hover {
+  text-decoration: underline;
+}

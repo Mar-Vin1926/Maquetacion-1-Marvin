@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Fondo gris claro */
+}
+
+.form {
+  background-color: white; /* Recuadro blanco */
+  padding: 80px;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 550px; /* Ancho del recuadro */
+  border: 3px solid black;
+}
+
+.form_details {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333; /* Texto negro */
+}
+
+.input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 3px solid black;
+  border-radius: 30px;
+  font-size: 15px;
+  color: black; /* Texto gris */
+
+}
+
+.input::placeholder {
+  color: black;
+  
+}
+
+.btn {
+  padding: 10px;
+  background-color: white; /* Botón blanco */
+  color: black;
+  border: 3px solid black; /* Corregí la sintaxis */
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 40px;
+  max-width: 150px;
+  margin-left: auto;  /* Empuja el botón a la derecha */
+  margin-right: auto; /* Empuja el botón a la izquierda, centrándolo */
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.switch {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777; /* Texto gris */
+  text-align: center;
+}
+
+.switch .signup_tog {
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.switch .signup_tog:hover {
+  text-decoration: underline;
+}
