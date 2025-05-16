@@ -35,7 +35,7 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
     ```bash
     git clone <https://github.com/Mar-Vin1926/Maquetacion-1-Marvin.git>
-    cd <NOMBRE_DEL_PROYECTO>
+    cd maquetacion1
     ```
 
 2.  **Instala las dependencias:**
