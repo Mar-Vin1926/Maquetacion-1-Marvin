@@ -1,0 +1,104 @@
+.aplicacion {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start; /* Alinea el contenido principal a la derecha del menú */
+  align-items: stretch; /* Estira los elementos hijos a lo largo del eje transversal (vertical) */
+  position: relative;
+}
+
+.aplicacion__menu-lateral {
+  width: 300px; /* Ancho fijo del menú (ajusta según necesites) */
+  position: fixed; /* Se mantiene fijo en la izquierda */
+  left: 0;
+  top: 10px;
+  bottom: 10px; 
+  height: 97%; /* Ocupa todo el alto de la pantalla */
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  padding: 20px; /* Añade un poco de espacio interno */
+  background-color: #f8f9fa; /* Fondo claro (ajusta el color) */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra suave a la derecha */
+  border: 3px solid black;
+}
+
+.aplicacion__menu-lateral-logo {
+  font-size: 50px; /* Reduce el tamaño del logo "Home" */
+  font-weight: bold;
+  text-align: center; /* Alinea el logo a la izquierda */
+  color: black; /* Color del texto del logo */
+  margin-bottom: 80px; /* Espacio debajo del logo */
+  letter-spacing: normal; /* Elimina el espaciado entre letras */
+  display: block; /* Asegura que ocupe todo el ancho */
+}
+
+.aplicacion__menu-lateral-navegacion {
+  padding: 0; /* Elimina el padding izquierdo */
+  width: 60%;
+  height: auto; /* Ajusta la altura automáticamente */
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  justify-content: flex-start; /* Alinea los elementos al inicio */
+  align-items: stretch; /* Estira los elementos para que ocupen todo el ancho */
+  gap: 60px; /* Espacio entre los elementos de navegación */
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+  box-shadow: black ;
+}
+
+.aplicacion__menu-lateral-navegacion-item {
+  text-decoration: none;
+  color: black; /* Color del texto de los enlaces */
+  letter-spacing: normal; /* Elimina el espaciado entre letras */
+  font-weight: normal; /* Peso de fuente normal */
+  position: static; /* Cambia a static para facilitar el diseño */
+  background-color: white; /* Fondo blanco para los botones/enlaces */
+  border: 3px solid black; /* Añade un borde */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  padding: 10px 15px; /* Espaciado interno */
+  text-align: left; /* Alinea el texto a la izquierda */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.aplicacion__menu-lateral-navegacion-item:hover {
+  background-color: #e9ecef; /* Cambia el fondo al pasar el ratón */
+}
+
+.aplicacion__menu-lateral-navegacion-item::after {
+  content: none; /* Elimina la línea inferior al pasar el ratón */
+}
+
+/* Estilos para el botón de cerrar sesión (puedes ser más específico si es necesario) */
+.aplicacion__menu-lateral-navegacion-item[type="button"] {
+  background-color: white; /* Color rojo para el botón de cerrar sesión */
+  color: black;
+  border: none;
+  cursor: pointer;
+  border: 3px solid black; /* Añade un borde */
+}
+
+.aplicacion__menu-lateral-navegacion-item[type="button"]:hover {
+  background-color: white;
+}
+
+.aplicacion__contenido {
+  margin-left: 200px; /* Empuja el contenido principal a la derecha del menú (ajusta al ancho del menú) */
+  width: calc(100% - 200px); /* El ancho del contenido principal es el 100% menos el ancho del menú */
+}
+
+.aplicacion__contenido-fondo {
+  position: fixed; /* Cambiado a fixed para que no se desplace con el contenido */
+  top: 0;
+  left: 200px; /* Empieza después del menú lateral */
+  width: calc(100% - 200px);
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: background-color 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.aplicacion__principal {
+  padding: 20px; /* Añade un poco de padding al contenido principal */
+}
