@@ -31,7 +31,7 @@ Este proyecto de maquetación en React tiene como objetivo crear una interfaz de
 
 Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-1.  **Clona el repositorio (si lo tienes en un repositorio remoto):**
+1.  **Clona el repositorio:**
 
     ```bash
     git clone <https://github.com/Mar-Vin1926/Maquetacion-1-Marvin.git>
@@ -76,17 +76,21 @@ maquetacion1/
     ├── pages/
     │   ├── AcercaDe.jsx
     │   ├── Contacto.jsx
-    │   ├── Home.jsx
-    │   ├── Login.css
     │   ├── Login.jsx
-    │   ├── Registro.css
-    │   └── Registro.jsx
+    │   ├── Registro.jsx
+    │   └── Servicios.jsx
     ├── routes/
-    │   ├── enrutador.jsx
-    │   └── Home.css
+    │   └── enrutador.jsx
+    └── styles/
+        ├── AcercaDe.css
+        ├── Contacto.css
+        ├── Login.css
+        ├── Registro.css
+        └── Servicios.css
     ├── index.css
+    ├── Home.css
+    ├── Home.jsx
     ├── main.jsx
-    └── App.jsx
 ├── .gitignore
 ├── README.md
 ├── package-lock.json
