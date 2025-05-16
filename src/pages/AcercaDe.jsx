@@ -1,5 +1,5 @@
 import MenuLateral from '../components/MenuLateral';
-import './AcercaDe.css'; // Importa los estilos de Home para mantener la misma estructura visual
+import '../styles/AcercaDe.css'; 
 
 const Servicios = () => {
   return (

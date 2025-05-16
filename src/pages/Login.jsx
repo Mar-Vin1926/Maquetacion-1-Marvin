@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom"; // Importa Link
-import "./Login.css";
+import "../styles/Login.css";
 import {
   alertaError,
   alertaRedireccion,
@@ -41,7 +41,7 @@ function Login() {
   return (
     <div className="container">
       <form className="form">
-        <div className="form_details"></div> {/* Puedes dejarlo vacío o añadir un título "Iniciar Sesión" aquí */}
+        <div className="form_details"></div> {}
         <input
           onChange={(e) => setUsuario(e.target.value)}
           type="text"
@@ -58,7 +58,7 @@ function Login() {
           Iniciar sesión
         </button>
         <span className="switch">
-          ¿No tiene una cuenta? {/* Cambié el orden del texto */}
+          ¿No tiene una cuenta? {}
           <Link to="/registro" className="signup_tog">
             Regístrese
           </Link>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Registro.css'; // Importaremos un archivo CSS para estilos
+import '../styles/Registro.css'; 
 
 let apiUsuarios = "https://back-json-server-sabado.onrender.com/usuarios/";
 
